@@ -1,0 +1,78 @@
+*{
+	margin: 0px;
+	padding: 0px
+}
+
+body{
+	height:100vh;
+}
+
+table{
+	width: 100%;
+}
+
+td{
+	color: white;
+}
+
+td.droite{
+	text-align: right;
+}
+
+div.haut{
+	background-color: grey;
+	padding: 10px;
+}
+
+div.bas{
+	background-color: grey;
+	padding: 10px;
+}
+
+div.corps{
+	display: flex;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 686px;
+}
+
+div.bleu{
+	padding:5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	background-color: lightblue;
+	width: 10%;
+	display: left;
+}
+
+div.jaune{
+	padding:5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	background-color: lightyellow;
+	width: 90%;
+	display: right;
+}
+
+ul{
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:40px;
+	margin-right:40px;
+	list-style: square;
+}
+
+h2{
+	margin:5px;
+}
+
+p.contact{
+	text-align: center;
+	color: white;
+}
+
+p.texte{
+	margin-bottom:20px;
+}
