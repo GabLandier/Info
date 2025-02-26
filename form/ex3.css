@@ -1,5 +1,38 @@
-<style>
-    body {
-        background-color: lightgray;
-    }
-</style>
+table {
+    margin-left: 35px auto ;
+    background-color: yellow;
+    width: 100%; 
+    max-width: 800px; 
+}
+
+p{
+    font-weight: bold;
+}
+
+.tableau {
+    border: 1px solid black; 
+    padding: 20px;
+    width: 40%; 
+    background-color: white; 
+    position: relative; 
+    margin: 20px auto;
+
+}
+
+h4 {
+    position: absolute; 
+    top: -30px; 
+    left: 10px; 
+    background-color: white; 
+    font-weight: bold; 
+}
+
+.button-container {
+    text-align: center;
+}
+
+
+
+
+
+

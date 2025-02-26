@@ -8,105 +8,110 @@
 </head>
 <body>
 
-    <h2>Client</h2>
 
-    <form>
-        <table>
-            <tr>
-                <td><p>Civilité</p></td>
-                <td>
-                    <input type="radio" id="mademoiselle" name="sexe" value="mademoiselle">
-                    <label for="mademoiselle">Mademoiselle</label>
+        <form>
+            <div class="tableau">
+                <h4>Client</h4>
+            <table>
+                <tr>
+                    <td><p>Civilité</p></td>
+                    <td>
+                        <input type="radio" id="mademoiselle" name="sexe" value="mademoiselle">
+                        <label for="mademoiselle">Mademoiselle</label>
 
-                    <input type="radio" id="femme" name="sexe" value="femme">
-                    <label for="femme">Madame</label>
+                        <input type="radio" id="femme" name="sexe" value="femme">
+                        <label for="femme">Madame</label>
 
-                    <input type="radio" id="homme" name="sexe" value="homme">
-                    <label for="homme">Monsieur</label>
-                </td>
-            </tr>
+                        <input type="radio" id="homme" name="sexe" value="homme">
+                        <label for="homme">Monsieur</label>
+                    </td>
+                </tr>
 
-            <tr>
-                <td><p>Nom/Prénom</p></td>
-                <td><input type="text" id="nom" name="nom" required></td>
-            </tr>
+                <tr>
+                    <td><p>Nom/Prénom</p></td>
+                    <td><input type="text" id="nom" name="nom"></td>
+                </tr>
 
-            <tr>
-                <td><label for="adresse">Adresse</label></td>
-                <td>
-                    <textarea id="adresse" name="adresse" rows="4" cols="50">Rue No Boîte postale</textarea>
-                </td>
-            </tr>
+                <tr>
+                    <td><label for="adresse">Adresse</label></td>
+                    <td>
+                        <textarea id="adresse" name="adresse" rows="4" cols="50">Rue No Boîte postale</textarea>
+                    </td>
+                </tr>
 
-            <tr>
-                <td><p>N° postal/localité</p></td>
-                <td>
-                    <input type="number" id="postal" name="postal" min="1000" max="9999">
-                    <input type="text" id="localite" name="localite" value="Lausanne">
-                </td>
-            </tr>
+                <tr>
+                    <td><p>N° postal/localité</p></td>
+                    <td>
+                        <input type="number" id="postal" name="postal" min="1000" max="9999">
+                        <input type="text" id="localite" name="localite" value="Lausanne">
+                    </td>
+                </tr>
 
-            <tr>
-                <td><p>Pays</p></td>
-                <td>
-                    <select id="pays" name="pays">
-                        <option value="Suisse">Suisse</option>
-                        <option value="Allemagne">Allemagne</option>
-                        <option value="Autriche">Autriche</option>
-                        <option value="Belgique">Belgique</option>
-                        <option value="Bulgarie">Bulgarie</option>
-                        <option value="Chypre">Chypre</option>
-                        <option value="Croatie">Croatie</option>
-                        <option value="Danemark">Danemark</option>
-                        <option value="Espagne">Espagne</option>
-                        <option value="Estonie">Estonie</option>
-                        <option value="Finlande">Finlande</option>
-                        <option value="France">France</option>
-                        <option value="Grèce">Grèce</option>
-                        <option value="Hongrie">Hongrie</option>
-                        <option value="Irlande">Irlande</option>
-                        <option value="Italie">Italie</option>
-                        <option value="Lettonie">Lettonie</option>
-                        <option value="Lituanie">Lituanie</option>
-                        <option value="Luxembourg">Luxembourg</option>
-                        <option value="Malte">Malte</option>
-                        <option value="Pays-Bas">Pays-Bas</option>
-                    </select>
-                </td>
-            </tr>
+                <tr>
+                    <td><p>Pays</p></td>
+                    <td>
+                        <select id="pays" name="pays">
+                            <option value="Suisse">Suisse</option>
+                            <option value="Allemagne">Allemagne</option>
+                            <option value="Autriche">Autriche</option>
+                            <option value="Belgique">Belgique</option>
+                            <option value="Bulgarie">Bulgarie</option>
+                            <option value="Chypre">Chypre</option>
+                            <option value="Croatie">Croatie</option>
+                            <option value="Danemark">Danemark</option>
+                            <option value="Espagne">Espagne</option>
+                            <option value="Estonie">Estonie</option>
+                            <option value="Finlande">Finlande</option>
+                            <option value="France">France</option>
+                            <option value="Grèce">Grèce</option>
+                            <option value="Hongrie">Hongrie</option>
+                            <option value="Irlande">Irlande</option>
+                            <option value="Italie">Italie</option>
+                            <option value="Lettonie">Lettonie</option>
+                            <option value="Lituanie">Lituanie</option>
+                            <option value="Luxembourg">Luxembourg</option>
+                            <option value="Malte">Malte</option>
+                            <option value="Pays-Bas">Pays-Bas</option>
+                        </select>
+                    </td>
+                </tr>
 
-            <tr>    
-                <td><p>Plateforme(s)</p></td>
-                <td>
-                    <input type="checkbox" id="windows" name="plateforme[]" value="windows">
-                    <label for="windows">Windows</label>
+                <tr>    
+                    <td><p>Plateforme(s)</p></td>
+                    <td>
+                        <input type="checkbox" id="windows" name="plateforme[]" value="windows">
+                        <label for="windows">Windows</label>
 
-                    <input type="checkbox" id="macintosh" name="plateforme[]" value="macintosh">
-                    <label for="macintosh">Macintosh</label> 
+                        <input type="checkbox" id="macintosh" name="plateforme[]" value="macintosh">
+                        <label for="macintosh">Macintosh</label> 
 
-                    <input type="checkbox" id="unix" name="plateforme[]" value="unix">
-                    <label for="unix">Unix</label>
-                </td>
-            </tr>
+                        <input type="checkbox" id="unix" name="plateforme[]" value="unix">
+                        <label for="unix">Unix</label>
+                    </td>
+                </tr>
 
-            <tr>
-                <td><p>Application(s)</p></td>
-                <td>
-                    <select id="applications" name="applications[]" multiple size="5">
-                        <option value="bureautique">Bureautique</option>
-                        <option value="DAO">DAO</option>
-                        <option value="Statistique">Statistique</option>
-                        <option value="SGBD">SGBD</option>
-                        <option value="internet">Internet</option>
-                    </select>
-                </td>
-            </tr>
-        </table>
+                <tr>
+                    <td><p>Application(s)</p></td>
+                    <td>
+                        <select id="applications" name="applications[]" multiple size="5">
+                            <option value="bureautique">Bureautique</option>
+                            <option value="DAO">DAO</option>
+                            <option value="Statistique">Statistique</option>
+                            <option value="SGBD">SGBD</option>
+                            <option value="internet">Internet</option>
+                        </select>
+                        
+                    </td>
+                </tr>
 
-        <br>
-        <button type="submit">Soumettre formulaire</button>
-        <button type="reset">Effacer</button>
-    </form>
-
+            </table>  
+        </div>
+        <div class="button-container">
+            <button type="submit">Soumettre formulaire</button>
+            <button type="reset">Effacer</button>
+        </div>
+        </form>
+    
+            
 </body>
 </html>
