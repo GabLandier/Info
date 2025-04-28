@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exo 3 et 4</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<!--Partie EXO 3-->
+<h2>Tableau non trié :</h2>
+<p id="nonTrie"></p>
+
+<h2>Tableau trié :</h2>
+<p id="trie"></p>
+
+<!--Partie EXO 4 -->
+<h2>Exercice 4 - Image dynamique</h2>
+
+<img id="monImage" src="image0.jpg" alt="Image" 
+    onmouseover="changerImage()" 
+    onmouseout="remettreImage()" 
+    style="width:300px;height:200px;">
+
+<br><br>
+
+<input type="button" id="idbouton" name="nomdubouton" value="Afficher infos image" onclick="afficherInfos()">
+<br><br>
+
+<input type="button" id="randomImageButton" value="Changer image aléatoirement" onclick="changerImageAleatoire()">
+
+</body>
+</html>
+
